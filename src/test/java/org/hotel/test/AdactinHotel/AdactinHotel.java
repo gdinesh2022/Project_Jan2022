@@ -14,6 +14,7 @@ public class AdactinHotel extends BaseClass {
 		implicitWait(20);
 		urlLaunch("https://adactinhotelapp.com/index.php");
 		driver.manage().window().maximize();
+		System.out.println("AdactinHotel");
 		
 		WebElement Username = driver.findElement(By.id("username"));
 		Username.sendKeys("Dineshkumarg");
