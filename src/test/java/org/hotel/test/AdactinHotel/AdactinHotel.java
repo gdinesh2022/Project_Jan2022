@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class AdactinHotel extends BaseClass {
 	public static void main(String[] args) {
 		
+		//AdactinHotel
 		launchBrowser("Chrome");
 		implicitWait(20);
 		urlLaunch("https://adactinhotelapp.com/index.php");
